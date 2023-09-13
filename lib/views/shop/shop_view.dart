@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:quiz/core/utils/color.dart';
-import 'package:quiz/views/shop/coin/shop_coin_view.dart';
-import 'package:quiz/views/shop/gem/shop_gem_view.dart';
-import 'package:quiz/views/shop/shop_player_status.dart';
+import 'package:quizgame/core/utils/color.dart';
+import 'package:quizgame/views/shop/coin/shop_coin_view.dart';
+import 'package:quizgame/views/shop/gem/shop_gem_view.dart';
+import 'package:quizgame/views/shop/shop_player_status.dart';
 
 class ShopView extends StatelessWidget {
   const ShopView({Key? key}) : super(key: key);

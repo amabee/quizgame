@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:quiz/core/utils/color.dart';
-import 'package:quiz/models/running_tournament_model.dart';
-import 'package:quiz/views/play/play_view_wrapper.dart';
+import 'package:quizgame/core/utils/color.dart';
+import 'package:quizgame/models/running_tournament_model.dart';
+import 'package:quizgame/views/play/play_view_wrapper.dart';
 
 class RunningTournamentItemView extends StatelessWidget {
   String title;

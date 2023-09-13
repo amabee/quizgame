@@ -40,6 +40,8 @@ dependencies:
   provider: ^6.0.5
   crypto: ^3.0.3
   email_validator: ^2.1.17
+  carousel_slider: ^4.2.1
+  percent_indicator: ^4.2.3
 
 dev_dependencies:
   flutter_test:

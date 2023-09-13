@@ -2,8 +2,8 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../../viewModels/home/bcs/bcs_view_model.dart';
-import 'bcs_item_view.dart';
+import '../../../viewModels/home/bcs/bcq_view_model.dart';
+import 'bcq_item_view.dart';
 
 class BcsView extends StatelessWidget {
   BcsView({Key? key}) : super(key: key);

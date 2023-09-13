@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:quiz/viewModels/shop/shop_view_model.dart';
+import 'package:quizgame/viewModels/shop/shop_view_model.dart';
 
 class ShopCoinView extends StatelessWidget {
   const ShopCoinView({Key? key}) : super(key: key);

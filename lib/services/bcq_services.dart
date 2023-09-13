@@ -1,11 +1,11 @@
 import 'package:quizgame/models/bcq_model.dart';
-import 'package:quizgame/repository/bcs_repository.dart';
+import 'package:quizgame/repository/bcq_repository.dart';
 
 class BcsServices {
   Future<List<BcqModel>> getBcs() async {
-    BcsRepository bcsRepository = BcsRepository();
-    await bcsRepository.createBcsTable();
-    List<Map<String, dynamic>> maps = await bcsRepository.loadBcs();
+    BcqRepository bcsRepository = BcqRepository();
+    await bcsRepository.createBcqTable();
+    List<Map<String, dynamic>> maps = await bcsRepository.loadBcq();
     if (maps.isNotEmpty) {
       final bcsList = List.generate(maps.length, (i) {
         return BcqModel(

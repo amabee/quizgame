@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:quiz/views/play/play_view.dart';
+import 'package:quizgame/views/play/play_view.dart';
 import '../../core/utils/color.dart';
 
+// ignore: must_be_immutable
 class PlayViewWrapper extends StatelessWidget {
   String title;
   int categoryId;

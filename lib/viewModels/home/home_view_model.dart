@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:quizgame/views/home/bcs/bcs_view.dart';
+import 'package:quizgame/views/home/bcq/bcq_view.dart';
 import 'package:quizgame/views/home/category/category_item_view.dart';
 import 'package:quizgame/views/home/challengeRoom/challenge_room_view.dart';
 import 'package:quizgame/views/home/playerStatus/player_status_view.dart';

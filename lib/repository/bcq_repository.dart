@@ -2,8 +2,8 @@ import 'package:quizgame/models/bcq_model.dart';
 
 import 'db_repository.dart';
 
-class BcsRepository {
-  Future createBcsTable() async {
+class BcqRepository {
+  Future createBcqTable() async {
     final db = await DbRepository().database;
     String id = 'id INTEGER PRIMARY KEY AUTOINCREMENT';
     String title = 'title TEXT NOT NULL';
@@ -11,41 +11,41 @@ class BcsRepository {
     String duration = 'duration TEXT NOT NULL';
     String price = 'price TEXT NOT NULL';
 
-    String sqlBcs =
-        'CREATE TABLE IF NOT EXISTS BCS($id, $title, $questionNumber, $duration, $price)';
-    db.execute(sqlBcs);
+    String sqlBcq =
+        'CREATE TABLE IF NOT EXISTS BCQ($id, $title, $questionNumber, $duration, $price)';
+    db.execute(sqlBcq);
   }
 
-  Future addBcs(List<BcqModel> bcsList) async {
+  Future addBcq(List<BcqModel> BcqList) async {
     final db = await DbRepository().database;
 
-    for (BcqModel x in bcsList) {
-      await db.insert('BCS', x.toMap());
+    for (BcqModel x in BcqList) {
+      await db.insert('Bcq', x.toMap());
     }
   }
 
-  Future<List<Map<String, dynamic>>> loadBcs() async {
+  Future<List<Map<String, dynamic>>> loadBcq() async {
     final db = await DbRepository().database;
-    final List<Map<String, dynamic>> maps = await db.query('BCS');
+    final List<Map<String, dynamic>> maps = await db.query('Bcq');
 
-    final List<BcqModel> bcsList = [
+    final List<BcqModel> BcqList = [
       BcqModel(
-          title: 'BCS Model Test 1',
+          title: 'Bcq Model Test 1',
           questionNumber: '5',
           duration: '1',
           price: '10'),
       BcqModel(
-          title: 'BCS Model Test 2',
+          title: 'Bcq Model Test 2',
           questionNumber: '5',
           duration: '1',
           price: '10'),
       BcqModel(
-          title: 'BCS Model Test 3',
+          title: 'Bcq Model Test 3',
           questionNumber: '5',
           duration: '1',
           price: '10'),
       BcqModel(
-          title: 'BCS Model Test 4',
+          title: 'Bcq Model Test 4',
           questionNumber: '5',
           duration: '1',
           price: '10'),
@@ -54,8 +54,8 @@ class BcsRepository {
     if (maps.isNotEmpty) {
       return maps;
     } else {
-      await addBcs(bcsList);
-      return await loadBcs();
+      await addBcq(BcqList);
+      return await loadBcq();
     }
   }
 }

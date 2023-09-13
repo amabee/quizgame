@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:quiz/core/sharedWidgets/Loading.dart';
-import 'package:quiz/viewModels/auth/auth_view_model.dart';
+import 'package:quizgame/core/sharedWidgets/Loading.dart';
+import 'package:quizgame/viewModels/auth/auth_view_model.dart';
 import 'auth_wrapper.dart';
 
 class MainWrapper extends StatelessWidget {

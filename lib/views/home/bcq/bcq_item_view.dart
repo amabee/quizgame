@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:quiz/models/bcs_model.dart';
-import 'package:quiz/viewModels/user/user_view_model.dart';
-import 'package:quiz/views/play/play_view_wrapper.dart';
+import 'package:quizgame/models/bcq_model.dart';
+import 'package:quizgame/viewModels/user/user_view_model.dart';
+import 'package:quizgame/views/play/play_view_wrapper.dart';
 
 import '../../../core/utils/color.dart';
 
-class BcsItemView extends StatelessWidget {
+class BcqItemView extends StatelessWidget {
   String title;
   String questionNumber;
   String duration;
   String price;
-  BcsItemView(
+  BcqItemView(
       {Key? key,
       required this.title,
       required this.questionNumber,

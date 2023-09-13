@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:quizgame/core/utils/color.dart';
 import 'package:quizgame/viewModels/auth/auth_view_model.dart';
 import 'package:quizgame/viewModels/home/category/category_view_model.dart';
-import 'package:quizgame/viewModels/home/bcs/bcs_view_model.dart';
+import 'package:quizgame/viewModels/home/bcs/bcq_view_model.dart';
 import 'package:quizgame/viewModels/home/challengeRoom/challenge_room_view_model.dart';
 import 'package:quizgame/viewModels/home/home_view_model.dart';
 import 'package:quizgame/viewModels/home/runningTournament/running_tournament_view_model.dart';

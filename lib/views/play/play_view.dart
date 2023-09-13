@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:quiz/core/sharedWidgets/Loading.dart';
-import 'package:quiz/views/result/result_view.dart';
+import 'package:quizgame/core/sharedWidgets/Loading.dart';
+import 'package:quizgame/views/result/result_view.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
 import 'package:provider/provider.dart';
 import '../../core/utils/color.dart';

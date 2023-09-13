@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:quizgame/models/bcq_model.dart';
 import 'package:quizgame/services/bcq_services.dart';
-import 'package:quizgame/views/home/bcs/bcs_item_view.dart';
+import 'package:quizgame/views/home/bcq/bcq_item_view.dart';
 
 class BcsViewModel extends ChangeNotifier {
   int _current = 0;
   List<BcqModel> _items = [];
-  List<BcsItemView> _bcsItemList = [];
+  List<BcqItemView> _bcsItemList = [];
   List<Widget> _bcsSlider = [];
 
   List<Widget> get bcsSlider => _bcsSlider;
@@ -16,9 +16,9 @@ class BcsViewModel extends ChangeNotifier {
     notifyListeners();
   }
 
-  List<BcsItemView> get bcsItemList => _bcsItemList;
+  List<BcqItemView> get bcsItemList => _bcsItemList;
 
-  set bcsItemList(List<BcsItemView> value) {
+  set bcsItemList(List<BcqItemView> value) {
     _bcsItemList = value;
   }
 
@@ -45,10 +45,10 @@ class BcsViewModel extends ChangeNotifier {
     bcsSlider = generateBcsSliderList();
   }
 
-  List<BcsItemView> generateBcsItem() {
+  List<BcqItemView> generateBcsItem() {
     return List.generate(
         items.length,
-        (index) => BcsItemView(
+        (index) => BcqItemView(
             title: items[index].title,
             questionNumber: items[index].questionNumber,
             duration: items[index].duration,

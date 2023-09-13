@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:quiz/models/challenge_room_model.dart';
-import 'package:quiz/viewModels/home/challengeRoom/challenge_room_view_model.dart';
-import 'package:quiz/views/home/challengeRoom/challenge_room_items_view.dart';
+import 'package:quizgame/models/challenge_room_model.dart';
+import 'package:quizgame/viewModels/home/challengeRoom/challenge_room_view_model.dart';
+import 'package:quizgame/views/home/challengeRoom/challenge_room_items_view.dart';
 import 'package:provider/provider.dart';
 
 class ChallengeRoomView extends StatelessWidget {

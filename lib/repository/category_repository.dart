@@ -18,20 +18,23 @@ class CategoryRepository {
     final db = await DbRepository().database;
     final List<CategoryModel> categoryList = [
       CategoryModel(
-          categoryName: "Bangladesh",
-          imageUri: "lib/assets/logo/category/bangladesh.png"),
+          categoryName: "Criminal Law and Jurisprudence",
+          imageUri: "lib/assets/category/clj.jpg"),
       CategoryModel(
-          categoryName: "World",
-          imageUri: "lib/assets/logo/category/world.png"),
+          categoryName: "Law Enforcement Administration",
+          imageUri: "lib/assets/category/lea.png"),
       CategoryModel(
-          categoryName: "Cricket",
-          imageUri: "lib/assets/logo/category/cricket.jpg"),
+          categoryName: "Forensics/Criminalistics",
+          imageUri: "lib/assets/category/forensic.png"),
       CategoryModel(
-          categoryName: "Soccer",
-          imageUri: "lib/assets/logo/category/soccer.jpg"),
+          categoryName: "Crime Detection and Investigation",
+          imageUri: "lib/assets/category/cdi.jpg"),
       CategoryModel(
-          categoryName: "Animal",
-          imageUri: "lib/assets/logo/category/animal.png"),
+          categoryName: "Sociology of Crimes and Ethics",
+          imageUri: "lib/assets/category/lea.png"),
+      CategoryModel(
+          categoryName: "Correctional Administration",
+          imageUri: "lib/assets/category/correctional.png"),
     ];
 
     for (CategoryModel x in categoryList) {

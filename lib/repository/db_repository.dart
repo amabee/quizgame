@@ -15,7 +15,7 @@ class DbRepository {
   Future<Database> get database async {
     if (_database != null) return _database!;
 
-    _database = await _initDB('quiz_app.db');
+    _database = await _initDB('quizgame.db');
     return _database!;
   }
 

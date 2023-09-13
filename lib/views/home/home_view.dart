@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:quiz/core/utils/color.dart';
-import 'package:quiz/repository/question_repository.dart';
-import 'package:quiz/services/question_services.dart';
-import 'package:quiz/viewModels/home/category/category_view_model.dart';
-import 'package:quiz/viewModels/home/home_view_model.dart';
-import 'package:quiz/viewModels/play/question_view_model.dart';
-import 'package:quiz/viewModels/user/user_view_model.dart';
-import 'package:quiz/views/appbar/home_appbar_view.dart';
+import 'package:quizgame/core/utils/color.dart';
+import 'package:quizgame/repository/question_repository.dart';
+import 'package:quizgame/services/question_services.dart';
+import 'package:quizgame/viewModels/home/category/category_view_model.dart';
+import 'package:quizgame/viewModels/home/home_view_model.dart';
+import 'package:quizgame/viewModels/play/question_view_model.dart';
+import 'package:quizgame/viewModels/user/user_view_model.dart';
+import 'package:quizgame/views/appbar/home_appbar_view.dart';
 import 'package:provider/provider.dart';
 
 class HomeView extends StatelessWidget {

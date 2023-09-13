@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
-import 'package:quiz/core/utils/color.dart';
-import 'package:quiz/views/play/play_view_wrapper.dart';
+import 'package:quizgame/core/utils/color.dart';
+import 'package:quizgame/views/play/play_view_wrapper.dart';
 
 class CategoryItemView extends StatelessWidget {
   String name;

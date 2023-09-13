@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:quiz/viewModels/shop/shop_view_model.dart';
+import 'package:quizgame/viewModels/shop/shop_view_model.dart';
 
 class ShopGemView extends StatelessWidget {
   const ShopGemView({Key? key}) : super(key: key);

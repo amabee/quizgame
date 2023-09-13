@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:quiz/views/home/runningTournament/running_tournament_item_view.dart';
+import 'package:quizgame/views/home/runningTournament/running_tournament_item_view.dart';
 import 'package:provider/provider.dart';
-// import '../../../viewModels/home/runningTournament/running_tournament.view_model.dart';
 import '../../../viewModels/home/runningTournament/running_tournament_view_model.dart';
 
 class RunningTournamentView extends StatelessWidget {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:quiz/core/utils/color.dart';
-import 'package:quiz/viewModels/user/user_view_model.dart';
+import 'package:quizgame/core/utils/color.dart';
+import 'package:quizgame/viewModels/user/user_view_model.dart';
 
 class ShopPlayerStatus extends StatelessWidget implements PreferredSizeWidget {
   final double height;
